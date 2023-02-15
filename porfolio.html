@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css"
 </head>
 <body>
     <header class="header">
+        <div class="conteiner page-header-conteiner">
       <nav class="nav">
         <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
         <ul class="menu list">
@@ -20,14 +22,16 @@
           <li class="menu-item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="list-contact">
         <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="link phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
+      </div>
     </header>
     <main>
         <section class="filter">
             <!-- filter -->
+            <div class="conteiner-portfolio">
             <h1>filter-portfolio</h1><!-- потрібно буде приховати заголовок -->
             <ul class="filter list">
             <li><button type="button" class="filter-btn">All</button></li>
@@ -36,7 +40,7 @@
             <li><button type="button" class="filter-btn">Design</button></li>
             <li><button type="button" class="filter-btn">Marketing</button></li></ul>
        
-            <ul class="list">
+            <ul class="list conteiner-portfolio">
                 <li> <a class="link" href="">
                     <img 
                     src="./image/bankapp.svg" 
@@ -122,10 +126,11 @@
                     <p>Web Site</p></li>
                     </a>
             </ul>
+            </div>
         </section>
 
     </main>
-    <footer>
+    <footer class="conteiner">
       <a class="logo-dark-bgnd link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
       <p class="catchphrase">
         Increase the flow of customers and sales for your business with digital

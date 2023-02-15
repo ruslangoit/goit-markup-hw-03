@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css"
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
+      <div class="conteiner page-header-conteiner">
       <nav class="nav">
         <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
         <ul class="menu list">
@@ -21,22 +23,26 @@
           <li class="menu-item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="list-contact">
         <li><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="link phone" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
+        <div class="conteiner">
         <!-- hero image -->
         <h1 class="main-title">Effective Solutions for Your Business</h1>
         <button class="order-btn" type="button">Order Service</button>
+       </div>
       </section>
 
       <section class="about-us">
         <!-- about us -->
+         <div class="conteiner">
         <h2>about us</h2>  <!-- потрібно буде приховати заголовок -->
-                <ul class="list">
+         <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -66,9 +72,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="what-we-doing">
         <!-- what we doing -->
+        <div class="conteiner">
         <h2>What are we doing</h2>
         <ul class="list">
           <li>
@@ -96,10 +104,12 @@
               />
           </li>
         </ul>
+       </div> 
       </section>
 
       <section class="our-team">
         <!-- our team -->
+        <div class="conteiner">
         <h2>Our Team</h2>
         <ul class="list">
           <li>
@@ -143,9 +153,10 @@
             <p>UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="conteiner">
       <a class="logo-dark-bgnd link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
       <p class="catchphrase">
         Increase the flow of customers and sales for your business with digital
