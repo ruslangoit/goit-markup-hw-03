@@ -24,13 +24,7 @@ button {
 
 .list {
     list-style: none;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 24px;
-    
-}
+    }
 
 .link {
     text-decoration: none;
@@ -42,7 +36,7 @@ button {
     gap: 24px;}
 
 .conteiner {
-    width: 1200px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -58,7 +52,11 @@ button {
         flex-wrap: wrap;
         
     }
-
+/* display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px; */
 /* =================components================= */
 body {font-family: 'Roboto', sans-serif;
     color: #2E2F42;
@@ -120,6 +118,12 @@ color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+
 }
 .menu-item:not(:last-child) {
 margin-right: 40px;
