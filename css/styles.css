@@ -24,39 +24,36 @@ button {
 
 .list {
     list-style: none;
-    }
+}
 
 .link {
     text-decoration: none;
 }
-.list-contact {list-style: none;
+.list-contact {
+    list-style: none;
     display: flex;
-    align-items: center;
     margin-left: auto;
-    gap: 24px;}
+}
 
 .conteiner {
-    width: 1158px;
+    width: 1188px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 .conteiner-portfolio {
-        width: 1440px;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
+        display: flex;
         flex-wrap: wrap;
+        gap: 48px 24px;
         
     }
-/* display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 24px; */
+
+.title-cover-up{
+        display: none;
+    }
+
+
 /* =================components================= */
 body {font-family: 'Roboto', sans-serif;
     color: #2E2F42;
@@ -88,9 +85,11 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 footer {
     background: #2E2F42;
+    padding: 100px 0px;
 }
 
 /* header */
@@ -105,6 +104,7 @@ padding-bottom: 24px;
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .menu .link:hover, 
@@ -169,16 +169,21 @@ text-transform: uppercase;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 
 /*--------- Hero----------- */
 .hero {
     background: #2E2F42;
+    padding: 188px 0px;
 }
 .main-title {
-display: flex;
- 
+    display: flex;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -199,7 +204,6 @@ display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     background: #4D5AE5;
@@ -217,29 +221,75 @@ display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.li-about-us{
+    display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 24px;
+}
+
 /* sectoin what we doing */
 .what-we-doing {
     background: #FFFFFF;
-    padding-top: 120px;
+    padding-top: 0px;
     padding-bottom: 120px;
 }
+.li-what-we-doing-img {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+}
+
 /* section our team  */
 .our-team {
     padding-top: 120px;
     padding-bottom: 120px;
     background: #F4F4FD;
 }
+.li-our-team {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+}
+.discr-our-team {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    background: #FFFFFF;
+}
 
 /* footer */
 
 .catchphrase {
     color: #E7E9FC;
+    width: 264px;
 }
 
 /* portfolio-section-filter */
-
+.header-border {
+        border-top: none;
+        border-bottom: 1px solid #E7E9FC;
+}
 .filter {
     background: #FFFFFF;
+padding-top: 96px;
+padding-bottom: 120px;
+
+}
+
+.li-filter-portfolio{
+display: flex;
+padding-top: 96px;
+padding-right: 427px;
+padding-bottom: 72px;
+padding-left: 427px;
+    
 }
 
 .filter-btn {
@@ -257,6 +307,10 @@ display: flex;
     border-radius: 4px;
 }
 
+.filter-btn:not(:last-child) {
+    margin-right: 24px;
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
     color: #FFFFFF;
@@ -270,5 +324,10 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 32px;
     margin-bottom: 8px;
+}
+.border-img-dscr{
+    border-top: none;
+    border-bottom: 1px solid #E7E9FC;
 }
