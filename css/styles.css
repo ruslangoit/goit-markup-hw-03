@@ -171,6 +171,7 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: block;
 }
 
 
@@ -263,6 +264,7 @@ text-transform: uppercase;
     flex-direction: column;
     padding: 32px 16px;
     background: #FFFFFF;
+    text-align: center;
 }
 
 /* footer */
@@ -286,11 +288,9 @@ padding-bottom: 120px;
 
 .li-filter-portfolio{
 display: flex;
-padding-top: 96px;
-padding-right: 427px;
-padding-bottom: 72px;
-padding-left: 427px;
-    
+gap: 24px;
+margin-bottom: 72px;
+justify-content: center;
 }
 
 .filter-btn {
@@ -306,6 +306,7 @@ padding-left: 427px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    padding: 12px 24px;
 }
 
 .filter-btn:not(:last-child) {
@@ -325,10 +326,11 @@ padding-left: 427px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .border-img-dscr{
     border-top: none;
     border-bottom: 1px solid #E7E9FC;
+    padding: 32px 54px 32px 16px; 
+
 }
